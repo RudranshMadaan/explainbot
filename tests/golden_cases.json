@@ -1,0 +1,43 @@
+
+[
+  {
+      "term": "recursion",
+      "audience": "eli5"
+  },
+  {
+      "term": "cache",
+      "audience": "eli5"
+  },
+  {
+      "term": "DNS",
+      "audience": "teenager"
+  },
+  {
+      "term": "photosynthesis",
+      "audience": "eli5"
+  },
+  {
+      "term": "API",
+      "audience": "teenager"
+  },
+  {
+      "term": "neural network",
+      "audience": "engineer"
+  },
+  {
+      "term": "SQL injection",
+      "audience": "engineer"
+  },
+  {
+      "term": "load balancer",
+      "audience": "engineer"
+  },
+  {
+      "term": "encryption",
+      "audience": "teenager"
+  },
+  {
+      "term": "banana",
+      "audience": "eli5"
+  }
+]

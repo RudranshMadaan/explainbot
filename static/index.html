@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExplainBot - Understand Anything</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <header>
+            <h1>Explain<span>Bot</span></h1>
+            <p>Complex concepts. Simple explanations.</p>
+        </header>
+
+        <section class="input-section">
+
+            <label for="term">What do you want to understand?</label>
+
+            <input
+                type="text"
+                id="term"
+                placeholder="Try recursion, APIs, neural networks..."
+                maxlength="120"
+            >
+
+            <label>Choose your explanation level</label>
+
+            <div class="audience-options">
+                <button class="audience active" data-audience="eli5">
+                    ELI5
+                </button>
+
+                <button class="audience" data-audience="teenager">
+                    Teenager
+                </button>
+
+                <button class="audience" data-audience="engineer">
+                    Engineer
+                </button>
+            </div>
+
+            <button id="explainBtn">Explain it to me →</button>
+
+        </section>
+
+        <section id="result" class="result hidden">
+            <h2>Your explanation</h2>
+            <p id="answer"></p>
+        </section>
+
+        <p id="status"></p>
+
+        <section class="history-section">
+            <h2>Recent explanations</h2>
+            <div id="history"></div>
+        </section>
+
+    </main>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
